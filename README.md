@@ -22,14 +22,3 @@ Design: https://cdn.discordapp.com/attachments/850245533838868480/85024621141583
 ## Authors
 
 Pavel: [Github](https://github.com/nsn1930)
-
-## Code examples
-
-```html
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serlokas 🕵️‍♂️</title>
-</head>
-```
