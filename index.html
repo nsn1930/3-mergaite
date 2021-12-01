@@ -14,7 +14,7 @@
     <meta name="theme-color" content="#ffffff">
     <style>
         body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: monospace;
             background-color: #F8F8F8;
         }
 
@@ -30,7 +30,7 @@
             margin-top: 20px;
         }
 
-        img {
+        header>img {
             float: left;
             height: 50px;
         }
@@ -45,6 +45,8 @@
             color: #9E9E9E;
             font-size: 20px;
             line-height: 20px;
+        }
+        a+a {
             margin-left: 30px;
         }
 
@@ -52,6 +54,37 @@
             color: #84bf66;
             text-decoration: underline;
         }
+
+        section {
+            display: inline-block;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        div {
+            display: inline-block;
+            float: left;
+            width: 40%;
+            color: #9E9E9E;
+            margin-top: 35px;
+            margin-left: 5%;
+        }
+
+        h1 {
+            font-size: 80px;
+            margin: 0px;
+        }
+
+        p {
+            margin: 0px;
+            font-size: 24px;
+        }
+
+        section>img {
+            float: right;
+            width: 40%;
+            margin-right: 5%;
+        } 
     </style>
 </head>
 
@@ -60,7 +93,7 @@
         <header>
             <img src="./logo.png" alt="Logotipas">
             <nav>
-                <a style="margin-left: 0px;" href="">Home</a>
+                <a href="">Home</a>
                 <a href="">Tracks</a>
                 <a href="">Library</a>
                 <a href="">Community</a>
