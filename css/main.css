@@ -26,7 +26,7 @@ nav {
 }
 
 a {
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
     color: #9E9E9E;
     font-size: 20px;
@@ -59,7 +59,7 @@ section {
 
 div {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 40%;
     color: #9E9E9E;
     margin-top: 35px;
@@ -80,4 +80,87 @@ section>img {
     float: right;
     width: 40%;
     margin-right: 5%;
-} 
+}
+
+@media (max-width: 850px) {
+    main {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+    
+    a {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 5px 15px;
+    }
+    section>img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    main {
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    header > img {
+        width: 100%;
+        height: 50px;
+        object-fit: contain;
+        object-position: center;
+    }
+    nav {
+        display: inline-block;
+        width: 100%;
+    }
+    a {
+        padding: 5px 7px;
+    }
+    section {
+        margin-top: 0;
+    }
+    section > img {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+    
+    header {
+        float: left;
+        width: 40%;
+    }
+
+    header > img {
+        object-position: left;
+    }
+
+    nav {
+        margin-top: 60px;
+    }
+
+    a:last-child {
+        margin-left: 0px;
+    }
+
+    section {
+        float: left;
+        width: 55%;
+        margin-top: 45px;
+    }
+
+    div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    section > img {
+        display: inline-block;
+        margin-top: 80px;
+        width: 150%;
+    }
+}
